@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    padding: 20px 0 20px 30px;
+    background-color: rgb(79, 79, 134);
+    color: white;
+}
+
+.menu .nav nav ul {
+    text-align: center;
+    margin-top: -25px;
+}
+
+.menu .nav nav ul li {
+    display: inline;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.grid {
+    max-width: 1200px;
+    padding: 15px;
+    margin: auto;
+}
+
+.grid .col {
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+    background-color: red;
+    float: left;
+}
+
+p {
+    clear: left;
+}
